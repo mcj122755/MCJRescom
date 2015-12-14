@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		646CC2FC227D13D23F9BCE4B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 345CE06EB7C8F6B36FD84EE6 /* libPods.a */; };
 		68935C7D1C19C34400717082 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68935C7C1C19C34400717082 /* main.m */; };
 		68935C801C19C34400717082 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68935C7F1C19C34400717082 /* AppDelegate.m */; };
 		68935C831C19C34400717082 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68935C821C19C34400717082 /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11E63735C267DDD3A1B8F312 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		345CE06EB7C8F6B36FD84EE6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		68935C771C19C34400717082 /* MCJRescom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCJRescom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68935C7B1C19C34400717082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68935C7C1C19C34400717082 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +43,7 @@
 		68935C901C19C34400717082 /* MCJRescomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MCJRescomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68935C951C19C34400717082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68935C961C19C34400717082 /* MCJRescomTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCJRescomTests.m; sourceTree = "<group>"; };
+		8951F3AED1710906C6ABB26A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				646CC2FC227D13D23F9BCE4B /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +65,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41D41C1CD92D3FDA6D252D7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				345CE06EB7C8F6B36FD84EE6 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		68935C6E1C19C34400717082 = {
 			isa = PBXGroup;
 			children = (
 				68935C791C19C34400717082 /* MCJRescom */,
 				68935C931C19C34400717082 /* MCJRescomTests */,
 				68935C781C19C34400717082 /* Products */,
+				DDCF06736DF84D1C3824B88C /* Pods */,
+				41D41C1CD92D3FDA6D252D7E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,6 +134,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		DDCF06736DF84D1C3824B88C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11E63735C267DDD3A1B8F312 /* Pods.debug.xcconfig */,
+				8951F3AED1710906C6ABB26A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +150,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 68935C9A1C19C34400717082 /* Build configuration list for PBXNativeTarget "MCJRescom" */;
 			buildPhases = (
+				BFE6426417943B70E4C56915 /* Check Pods Manifest.lock */,
 				68935C731C19C34400717082 /* Sources */,
 				68935C741C19C34400717082 /* Frameworks */,
 				68935C751C19C34400717082 /* Resources */,
+				6A3C6371EEACCCEB0252D809 /* Embed Pods Frameworks */,
+				1DDF01E1B7FCF0D38BE18A91 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -213,6 +240,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DDF01E1B7FCF0D38BE18A91 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A3C6371EEACCCEB0252D809 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFE6426417943B70E4C56915 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		68935C731C19C34400717082 /* Sources */ = {
@@ -345,6 +420,7 @@
 		};
 		68935C9B1C19C34400717082 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11E63735C267DDD3A1B8F312 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MCJRescom/Info.plist;
@@ -355,6 +431,7 @@
 		};
 		68935C9C1C19C34400717082 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8951F3AED1710906C6ABB26A /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MCJRescom/Info.plist;
@@ -416,6 +493,7 @@
 				68935C9C1C19C34400717082 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68935C9D1C19C34400717082 /* Build configuration list for PBXNativeTarget "MCJRescomTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +502,7 @@
 				68935C9F1C19C34400717082 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

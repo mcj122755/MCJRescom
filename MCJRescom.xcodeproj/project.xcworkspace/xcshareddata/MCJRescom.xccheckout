@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>52508168-0B9D-4185-B1CE-596213B62E62</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MCJRescom</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>25D80CCF4497EB2D2F0BBF6722942BD31294385F</key>
+		<string>https://github.com/mcj122755/MCJRescom.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MCJRescom.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>25D80CCF4497EB2D2F0BBF6722942BD31294385F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mcj122755/MCJRescom.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>25D80CCF4497EB2D2F0BBF6722942BD31294385F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>25D80CCF4497EB2D2F0BBF6722942BD31294385F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MCJRescom</string>
+		</dict>
+	</array>
+</dict>
+</plist>
