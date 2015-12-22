@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "RescomTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +17,19 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    // 1. 获取模块控制器
+    RescomTabBarController *rescomTabBarC = [[RescomTabBarController alloc] init];
+    
+    // 2. 设置UIWindow
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    // 3. 把模块视图添加到window上
+    self.window.rootViewController = rescomTabBarC;
+    
+    // 4. 显示
+    [self.window makeKeyAndVisible];
     
     return YES;
 }
