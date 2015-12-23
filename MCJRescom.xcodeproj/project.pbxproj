@@ -45,6 +45,11 @@
 		68935C881C19C34400717082 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68935C871C19C34400717082 /* Images.xcassets */; };
 		68935C8B1C19C34400717082 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68935C891C19C34400717082 /* LaunchScreen.xib */; };
 		68935C971C19C34400717082 /* MCJRescomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68935C961C19C34400717082 /* MCJRescomTests.m */; };
+		68DE833B1C2AE17E0067FC3E /* XHVPathOfDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DE833A1C2AE17E0067FC3E /* XHVPathOfDraw.m */; };
+		68DE833E1C2AE2F50067FC3E /* XHVDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DE833D1C2AE2F50067FC3E /* XHVDrawView.m */; };
+		68DE83411C2AE4060067FC3E /* XHVToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DE83401C2AE4060067FC3E /* XHVToolView.m */; };
+		68DE83441C2AE46C0067FC3E /* XHVLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DE83431C2AE46C0067FC3E /* XHVLineView.m */; };
+		68DE83471C2AE4910067FC3E /* XHVColorPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DE83461C2AE4910067FC3E /* XHVColorPath.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +114,16 @@
 		68935C901C19C34400717082 /* MCJRescomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MCJRescomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68935C951C19C34400717082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68935C961C19C34400717082 /* MCJRescomTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCJRescomTests.m; sourceTree = "<group>"; };
+		68DE83391C2AE17E0067FC3E /* XHVPathOfDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHVPathOfDraw.h; sourceTree = "<group>"; };
+		68DE833A1C2AE17E0067FC3E /* XHVPathOfDraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHVPathOfDraw.m; sourceTree = "<group>"; };
+		68DE833C1C2AE2F50067FC3E /* XHVDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHVDrawView.h; sourceTree = "<group>"; };
+		68DE833D1C2AE2F50067FC3E /* XHVDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHVDrawView.m; sourceTree = "<group>"; };
+		68DE833F1C2AE4060067FC3E /* XHVToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHVToolView.h; sourceTree = "<group>"; };
+		68DE83401C2AE4060067FC3E /* XHVToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHVToolView.m; sourceTree = "<group>"; };
+		68DE83421C2AE46C0067FC3E /* XHVLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHVLineView.h; sourceTree = "<group>"; };
+		68DE83431C2AE46C0067FC3E /* XHVLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHVLineView.m; sourceTree = "<group>"; };
+		68DE83451C2AE4910067FC3E /* XHVColorPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHVColorPath.h; sourceTree = "<group>"; };
+		68DE83461C2AE4910067FC3E /* XHVColorPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHVColorPath.m; sourceTree = "<group>"; };
 		8951F3AED1710906C6ABB26A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -346,6 +361,8 @@
 		687A654D1C284579001E1FB4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				68DE83391C2AE17E0067FC3E /* XHVPathOfDraw.h */,
+				68DE833A1C2AE17E0067FC3E /* XHVPathOfDraw.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -353,6 +370,14 @@
 		687A654E1C284579001E1FB4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				68DE833C1C2AE2F50067FC3E /* XHVDrawView.h */,
+				68DE833D1C2AE2F50067FC3E /* XHVDrawView.m */,
+				68DE833F1C2AE4060067FC3E /* XHVToolView.h */,
+				68DE83401C2AE4060067FC3E /* XHVToolView.m */,
+				68DE83421C2AE46C0067FC3E /* XHVLineView.h */,
+				68DE83431C2AE46C0067FC3E /* XHVLineView.m */,
+				68DE83451C2AE4910067FC3E /* XHVColorPath.h */,
+				68DE83461C2AE4910067FC3E /* XHVColorPath.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -613,14 +638,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				685A835E1C2842FE0075745A /* BaseTabBarController.m in Sources */,
+				68DE833E1C2AE2F50067FC3E /* XHVDrawView.m in Sources */,
 				685A83611C28430E0075745A /* BaseViewController.m in Sources */,
 				687A65551C2845A2001E1FB4 /* HHVViewController.m in Sources */,
 				687A65581C2845AC001E1FB4 /* LFDViewController.m in Sources */,
+				68DE83471C2AE4910067FC3E /* XHVColorPath.m in Sources */,
+				68DE83441C2AE46C0067FC3E /* XHVLineView.m in Sources */,
 				687A653C1C284455001E1FB4 /* RescomTabBarController.m in Sources */,
 				68935C801C19C34400717082 /* AppDelegate.m in Sources */,
+				68DE833B1C2AE17E0067FC3E /* XHVPathOfDraw.m in Sources */,
 				687A65521C284593001E1FB4 /* BSBViewController.m in Sources */,
 				68935C7D1C19C34400717082 /* main.m in Sources */,
 				687A655B1C2845BE001E1FB4 /* XHVViewController.m in Sources */,
+				68DE83411C2AE4060067FC3E /* XHVToolView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
