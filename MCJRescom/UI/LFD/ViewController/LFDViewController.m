@@ -9,29 +9,37 @@
 #import "LFDViewController.h"
 
 @interface LFDViewController ()
-
+{
+    NSMutableArray *_pictureListArrayM;
+}
 @end
 
 @implementation LFDViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    // 设置标题
+    self.title = @"很严肃的图片";
+    // 实例化数据源
+    _pictureListArrayM = [NSMutableArray array];
+    
+    // 添加视图
+    [self buildView];
+    
+    // 获取数据
+    [self requestData];
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+#pragma mark - 添加视图
+- (void)buildView
+{
+    
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+#pragma mark - 获取数据
+- (void)requestData
+{
+    
 }
-*/
-
 @end
