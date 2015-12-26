@@ -20,7 +20,7 @@
     [super viewDidLoad];
     
     // 设置标题
-    self.title = @"很严肃的图片";
+//    self.title = @"很严肃的图片";
     // 实例化数据源
     _pictureListArrayM = [NSMutableArray array];
     
@@ -35,6 +35,9 @@
 #pragma mark - 添加视图
 - (void)buildView
 {
+    
+    
+    
     
 }
 #pragma mark - 获取数据

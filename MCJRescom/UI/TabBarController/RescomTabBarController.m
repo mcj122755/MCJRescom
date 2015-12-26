@@ -11,6 +11,7 @@
 #import "HHVViewController.h"
 #import "LFDViewController.h"
 #import "XHVViewController.h"
+#import "IntroduceView.h"
 
 @interface RescomTabBarController ()
 
@@ -60,6 +61,9 @@
 
 - (void)introduceWithView
 {
-    
+    if (![[[NSUserDefaults standardUserDefaults] objectForKey:@"firstLogin"] isEqualToString:@"YES"]) {
+        IntroduceView *introView = [[IntroduceView alloc] init];
+        [self.view addSubview:introView];
+    }
 }
 @end
