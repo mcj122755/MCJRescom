@@ -94,6 +94,14 @@
 		6843B74A1C2ECA48000E7BF9 /* NetRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6843B7491C2ECA48000E7BF9 /* NetRequest.m */; };
 		6843B74D1C2ECB24000E7BF9 /* JokeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6843B74C1C2ECB24000E7BF9 /* JokeModel.m */; };
 		6843B7501C2ECB73000E7BF9 /* JokeCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6843B74F1C2ECB73000E7BF9 /* JokeCellTableViewCell.m */; };
+		6843B7531C2ECE49000E7BF9 /* MCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6843B7521C2ECE49000E7BF9 /* MCollectionViewLayout.m */; };
+		6843B7561C2ECF78000E7BF9 /* PictureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6843B7551C2ECF78000E7BF9 /* PictureCell.m */; };
+		6843B7591C2ECF9D000E7BF9 /* LFDPictureModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6843B7581C2ECF9D000E7BF9 /* LFDPictureModel.m */; };
+		6843B75C1C2ED198000E7BF9 /* MAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6843B75B1C2ED198000E7BF9 /* MAlertView.m */; };
+		6843B75F1C2ED245000E7BF9 /* SJAvatarBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6843B75E1C2ED245000E7BF9 /* SJAvatarBrowser.m */; };
+		6843B7621C2ED326000E7BF9 /* ALAssetsLibrary+W.m in Sources */ = {isa = PBXBuildFile; fileRef = 6843B7611C2ED326000E7BF9 /* ALAssetsLibrary+W.m */; };
+		6843B7651C2ED6C7000E7BF9 /* BSVideoCellCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6843B7641C2ED6C7000E7BF9 /* BSVideoCellCollectionViewCell.m */; };
+		6843B7681C2ED700000E7BF9 /* BSVideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6843B7671C2ED700000E7BF9 /* BSVideoModel.m */; };
 		685A835E1C2842FE0075745A /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 685A835D1C2842FE0075745A /* BaseTabBarController.m */; };
 		685A83611C28430E0075745A /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 685A83601C28430E0075745A /* BaseViewController.m */; };
 		687A653C1C284455001E1FB4 /* RescomTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 687A653B1C284455001E1FB4 /* RescomTabBarController.m */; };
@@ -219,6 +227,22 @@
 		6843B74C1C2ECB24000E7BF9 /* JokeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JokeModel.m; sourceTree = "<group>"; };
 		6843B74E1C2ECB73000E7BF9 /* JokeCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JokeCellTableViewCell.h; sourceTree = "<group>"; };
 		6843B74F1C2ECB73000E7BF9 /* JokeCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JokeCellTableViewCell.m; sourceTree = "<group>"; };
+		6843B7511C2ECE49000E7BF9 /* MCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCollectionViewLayout.h; sourceTree = "<group>"; };
+		6843B7521C2ECE49000E7BF9 /* MCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCollectionViewLayout.m; sourceTree = "<group>"; };
+		6843B7541C2ECF78000E7BF9 /* PictureCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureCell.h; sourceTree = "<group>"; };
+		6843B7551C2ECF78000E7BF9 /* PictureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureCell.m; sourceTree = "<group>"; };
+		6843B7571C2ECF9D000E7BF9 /* LFDPictureModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFDPictureModel.h; sourceTree = "<group>"; };
+		6843B7581C2ECF9D000E7BF9 /* LFDPictureModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFDPictureModel.m; sourceTree = "<group>"; };
+		6843B75A1C2ED198000E7BF9 /* MAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAlertView.h; sourceTree = "<group>"; };
+		6843B75B1C2ED198000E7BF9 /* MAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAlertView.m; sourceTree = "<group>"; };
+		6843B75D1C2ED245000E7BF9 /* SJAvatarBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJAvatarBrowser.h; sourceTree = "<group>"; };
+		6843B75E1C2ED245000E7BF9 /* SJAvatarBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJAvatarBrowser.m; sourceTree = "<group>"; };
+		6843B7601C2ED326000E7BF9 /* ALAssetsLibrary+W.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAssetsLibrary+W.h"; sourceTree = "<group>"; };
+		6843B7611C2ED326000E7BF9 /* ALAssetsLibrary+W.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAssetsLibrary+W.m"; sourceTree = "<group>"; };
+		6843B7631C2ED6C7000E7BF9 /* BSVideoCellCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSVideoCellCollectionViewCell.h; sourceTree = "<group>"; };
+		6843B7641C2ED6C7000E7BF9 /* BSVideoCellCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSVideoCellCollectionViewCell.m; sourceTree = "<group>"; };
+		6843B7661C2ED700000E7BF9 /* BSVideoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSVideoModel.h; sourceTree = "<group>"; };
+		6843B7671C2ED700000E7BF9 /* BSVideoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSVideoModel.m; sourceTree = "<group>"; };
 		685A835C1C2842FE0075745A /* BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
 		685A835D1C2842FE0075745A /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
 		685A835F1C28430E0075745A /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
@@ -449,6 +473,8 @@
 				6843B7411C2EC345000E7BF9 /* AppSetting.m */,
 				6843B7431C2EC3C6000E7BF9 /* MLoadingView.h */,
 				6843B7441C2EC3C6000E7BF9 /* MLoadingView.m */,
+				6843B75D1C2ED245000E7BF9 /* SJAvatarBrowser.h */,
+				6843B75E1C2ED245000E7BF9 /* SJAvatarBrowser.m */,
 			);
 			path = ToolViews;
 			sourceTree = "<group>";
@@ -482,6 +508,8 @@
 		685A83501C28405D0075745A /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				6843B7601C2ED326000E7BF9 /* ALAssetsLibrary+W.h */,
+				6843B7611C2ED326000E7BF9 /* ALAssetsLibrary+W.m */,
 				6843B7481C2ECA48000E7BF9 /* NetRequest.h */,
 				6843B7491C2ECA48000E7BF9 /* NetRequest.m */,
 			);
@@ -535,6 +563,8 @@
 		687A65411C284579001E1FB4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				6843B7661C2ED700000E7BF9 /* BSVideoModel.h */,
+				6843B7671C2ED700000E7BF9 /* BSVideoModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -542,6 +572,8 @@
 		687A65421C284579001E1FB4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				6843B7631C2ED6C7000E7BF9 /* BSVideoCellCollectionViewCell.h */,
+				6843B7641C2ED6C7000E7BF9 /* BSVideoCellCollectionViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -605,6 +637,8 @@
 		687A65491C284579001E1FB4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				6843B7571C2ECF9D000E7BF9 /* LFDPictureModel.h */,
+				6843B7581C2ECF9D000E7BF9 /* LFDPictureModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -612,6 +646,12 @@
 		687A654A1C284579001E1FB4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				6843B7511C2ECE49000E7BF9 /* MCollectionViewLayout.h */,
+				6843B7521C2ECE49000E7BF9 /* MCollectionViewLayout.m */,
+				6843B7541C2ECF78000E7BF9 /* PictureCell.h */,
+				6843B7551C2ECF78000E7BF9 /* PictureCell.m */,
+				6843B75A1C2ED198000E7BF9 /* MAlertView.h */,
+				6843B75B1C2ED198000E7BF9 /* MAlertView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -968,27 +1008,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6843B7621C2ED326000E7BF9 /* ALAssetsLibrary+W.m in Sources */,
 				6843B74D1C2ECB24000E7BF9 /* JokeModel.m in Sources */,
 				685A835E1C2842FE0075745A /* BaseTabBarController.m in Sources */,
 				68DE833E1C2AE2F50067FC3E /* XHVDrawView.m in Sources */,
 				6843B74A1C2ECA48000E7BF9 /* NetRequest.m in Sources */,
 				685A83611C28430E0075745A /* BaseViewController.m in Sources */,
+				6843B75C1C2ED198000E7BF9 /* MAlertView.m in Sources */,
 				687A65551C2845A2001E1FB4 /* HHVViewController.m in Sources */,
 				687A65581C2845AC001E1FB4 /* LFDViewController.m in Sources */,
 				68DE83471C2AE4910067FC3E /* XHVColorPath.m in Sources */,
 				68DE83441C2AE46C0067FC3E /* XHVLineView.m in Sources */,
 				6843B7501C2ECB73000E7BF9 /* JokeCellTableViewCell.m in Sources */,
 				687A653C1C284455001E1FB4 /* RescomTabBarController.m in Sources */,
+				6843B7651C2ED6C7000E7BF9 /* BSVideoCellCollectionViewCell.m in Sources */,
 				6843B7421C2EC345000E7BF9 /* AppSetting.m in Sources */,
 				6843B7391C2EBFB2000E7BF9 /* IntroduceView.m in Sources */,
+				6843B75F1C2ED245000E7BF9 /* SJAvatarBrowser.m in Sources */,
 				68935C801C19C34400717082 /* AppDelegate.m in Sources */,
 				68DE833B1C2AE17E0067FC3E /* XHVPathOfDraw.m in Sources */,
+				6843B7561C2ECF78000E7BF9 /* PictureCell.m in Sources */,
 				687A65521C284593001E1FB4 /* BSBViewController.m in Sources */,
+				6843B7531C2ECE49000E7BF9 /* MCollectionViewLayout.m in Sources */,
 				68935C7D1C19C34400717082 /* main.m in Sources */,
 				6843B73C1C2EC279000E7BF9 /* YColorButton.m in Sources */,
 				687A655B1C2845BE001E1FB4 /* XHVViewController.m in Sources */,
 				68DE83411C2AE4060067FC3E /* XHVToolView.m in Sources */,
 				6843B7451C2EC3C6000E7BF9 /* MLoadingView.m in Sources */,
+				6843B7681C2ED700000E7BF9 /* BSVideoModel.m in Sources */,
+				6843B7591C2ECF9D000E7BF9 /* LFDPictureModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

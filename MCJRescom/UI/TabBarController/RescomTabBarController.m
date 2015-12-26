@@ -45,14 +45,14 @@
     UINavigationController *xhvNav = [[UINavigationController alloc] initWithRootViewController:xhvVC];
     
     // 把视图模块添加到UITabBar上
-    self.viewControllers = @[bsbNav,hhNav,lfdNav,xhvNav];
+    self.viewControllers = @[lfdNav,hhNav,bsbNav,xhvNav];
     
     // 设置模块图片
-    UITabBarItem *imItem = [[UITabBarItem alloc]initWithTitle:@"图片" image:[UIImage imageNamed:@"tab_btn1_nor.png"] selectedImage:[UIImage imageNamed:@"tab_btn1_sel.png"]];
+    UITabBarItem *imItem = [[UITabBarItem alloc]initWithTitle:@"视频" image:[UIImage imageNamed:@"tab_btn1_nor.png"] selectedImage:[UIImage imageNamed:@"tab_btn1_sel.png"]];
     bsbNav.tabBarItem = imItem;
     UITabBarItem *bbsItem = [[UITabBarItem alloc]initWithTitle:@"笑话" image:[UIImage imageNamed:@"tab_btn2_nor.png"] selectedImage:[UIImage imageNamed:@"tab_btn2_sel.png"]];
     hhNav.tabBarItem = bbsItem;
-    UITabBarItem *dcItem = [[UITabBarItem alloc]initWithTitle:@"视频" image:[UIImage imageNamed:@"tab_btn3_nor.png"] selectedImage:[UIImage imageNamed:@"tab_btn3_sel.png"]];
+    UITabBarItem *dcItem = [[UITabBarItem alloc]initWithTitle:@"图片" image:[UIImage imageNamed:@"tab_btn3_nor.png"] selectedImage:[UIImage imageNamed:@"tab_btn3_sel.png"]];
     lfdNav.tabBarItem = dcItem;
     UITabBarItem *mallItem = [[UITabBarItem alloc]initWithTitle:@"绘画" image:[UIImage imageNamed:@"tab_btn4_nor.png"] selectedImage:[UIImage imageNamed:@"tab_btn4_sel.png"]];
     xhvNav.tabBarItem = mallItem;
